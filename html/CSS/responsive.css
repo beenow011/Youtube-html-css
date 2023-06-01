@@ -1,0 +1,94 @@
+@media screen and (max-width:1360px) 
+{
+    .shortcut2 {
+        display: none;
+    }
+   
+}
+@media screen and (max-width:1050px) {
+    .sidebar{
+   
+        width: 4.5%;
+        padding-left: 1%;
+        padding-top: 5px;
+        margin-top: 3px;
+        overflow: scroll;
+        
+    }
+    .sidebar .shortcut1 p{
+        font-size: 11px;
+        margin-left: -1px;
+        margin-top: 1px;
+      }
+    .sidebar .shortcut2 p, .sidebar .shortcut3 p{
+        display: none;
+    }
+    .sidebar h3{
+        display: none;
+    }
+    .sidebar .shortcut1 a{
+        /* height: 22px;
+        width: 27px; */
+        margin-bottom: 52px;
+    }
+    .sidebar .shortcut2 img, .sidebar .shortcut3 img{
+    
+        display: none;
+    
+    }
+    .sidebar hr{
+        display: none;
+    }
+    .container{
+        padding-left: 7%;
+    }
+}
+@media screen and (max-width:820px) {
+    .sidebar p{
+        display: none;
+    }
+}
+@media screen and (max-width:646px) {
+    .sidebar{
+        display: none;
+    }
+    .container{
+        padding-left: 2%;
+    }
+    .menuimg img{
+        display: none;
+    }
+}
+@media screen and (max-width:544px) {
+    .banner{
+        display: none;
+    }
+    .bell-img img, .upload-img img{
+            display: none;
+    }
+    nav{
+        height: 10%;
+    }
+}
+@media screen and (max-width:370px) {
+    .searchbar input{
+        display: none;
+    }
+    .voice-img img{
+        display: none;
+    }
+    .search-img{
+        height: 33px;
+        position: relative;
+right: -239%;
+    }
+    .searchbar{
+        border: 0;
+    }
+    .search-img img{
+        height: 22px;
+    }
+    .profile-img{
+        margin-right: 8px;
+    }
+}
